@@ -1,6 +1,6 @@
-package jian_offer.day1;
+package day1;
 
-public class P3 {
+public class P3_java {
     public int[] countBits(int n) {
         int[] result = new int[n + 1];
 

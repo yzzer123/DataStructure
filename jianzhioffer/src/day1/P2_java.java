@@ -1,6 +1,6 @@
-package jian_offer.day1;
+package day1;
 
-public class P2 {
+public class P2_java {
 
     public String addBinary(String a, String b) {
         // 交换较长的字符串位置

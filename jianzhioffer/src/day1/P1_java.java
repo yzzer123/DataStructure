@@ -1,6 +1,6 @@
-package jian_offer.day1;
+package day1;
 
-public class P1 {
+public class P1_java {
 
     public long abs(int n) {
         if (n == -2147483648) {
