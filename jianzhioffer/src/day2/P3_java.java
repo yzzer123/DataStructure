@@ -20,8 +20,9 @@ public class P3_java {
         // 建立hash表
         short[] hash = new short[2020];
         for (int i = 0; i < numbers.length; i++) {
-            if (hash[numbers[i] + 1000] == 0)
+            if (hash[numbers[i] + 1000] == 0) {
                 hash[numbers[i] + 1000] = (short) (i + 1);
+            }
         }
         for (int i = numbers.length - 1; i >= 0; i--) {
             if (hash[target - numbers[i] + 1000] != 0) {
