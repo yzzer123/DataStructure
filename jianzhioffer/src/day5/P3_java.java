@@ -43,7 +43,6 @@ public class P3_java {
 
             maxLen = Math.max(maxLen, right - left + 1);
         }
-
         return maxLen;
     }
 }
