@@ -13,10 +13,10 @@ public class P3_java {
             while (!stack.isEmpty() && temperatures[stack.peek()] < temperatures[i]) {
                 Integer index = stack.pop();
                 ans[index] = i - index;
+
             }
             stack.push(i);
         }
-
         return ans;
     }
 }
